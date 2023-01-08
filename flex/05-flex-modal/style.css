@@ -9,17 +9,30 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free lol*/
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
-
+.header{
+  font-size: 20px;
+  font-weight: bold;
+  align-self: center;
+  margin-bottom: 12px;
+}
+.text{
+  margin-bottom: 12px;
+ 
+}
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 16px;
+  display: flex;
+
 }
 
 .icon {
@@ -33,6 +46,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 16px;
+  flex: 1 0 auto;
 }
 
 .close-button {
@@ -46,11 +61,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex: 0 0 auto;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  flex: 1 0 auto;
+}
+
+.top{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 button.continue {
@@ -63,4 +86,10 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  flex: 1 0 auto;
+}
+
+.content{
+  
+  
 }
