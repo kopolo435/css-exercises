@@ -33,6 +33,7 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
+  flex: 0 0 auto;
 }
 
 .content{
