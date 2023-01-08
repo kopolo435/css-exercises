@@ -39,7 +39,7 @@ body {
 .content{
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 32px;
   gap: 15px;
 
 }
