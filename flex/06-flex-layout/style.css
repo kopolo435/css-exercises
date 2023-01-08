@@ -31,12 +31,11 @@ input {
 
 
 .content{
+  text-align: center;
   margin-bottom: auto;
+  align-self: center;
 }
 
-.footer{
-  
-}
 
 .left-links,.right-links{
   list-style: none;
@@ -50,5 +49,6 @@ input {
 }
 .header,.footer{
   display: flex;
+  padding: 4px;
   justify-content: space-between;
 }
