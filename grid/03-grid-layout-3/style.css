@@ -52,6 +52,9 @@ menu li{
   background-color: #FF7755;
   grid-column: 1/1;
   grid-row: 3/5;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
 }
 
 .sidebar .photo {
