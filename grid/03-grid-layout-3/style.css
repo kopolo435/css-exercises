@@ -26,6 +26,16 @@
   grid-template-columns: 1fr 4fr;
 }
 
+.menu ul{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  list-style: none;
+}
+
+menu li{
+  grid-column: span;
+}
+
 .menu ul,
 .menu li {
   font-size: 16px;
