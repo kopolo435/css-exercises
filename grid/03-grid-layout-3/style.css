@@ -73,6 +73,15 @@ menu li{
 .nav {
   background-color: #FF7755;
   grid-row: 3/4;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+
+.nav ul{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  list-style: none;
 }
 
 .nav ul li {
