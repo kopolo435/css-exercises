@@ -58,7 +58,7 @@ menu li{
 }
 
 .sidebar .photo {
-  background-color: white;
+  background: no-repeat center url(./shinobuFace.jpg);
   color: black;
   font-size: 12px;
   font-weight: normal;
