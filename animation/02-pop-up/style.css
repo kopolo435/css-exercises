@@ -41,8 +41,9 @@ button {
   text-align: center;
   transition: all 0.3s ease-in-out;
 }
+
 .popup-modal p {
-  margin-bottom: 24px
+  margin-bottom: 24px;
 }
 
 .backdrop {
@@ -64,4 +65,3 @@ button {
 .backdrop.show {
   opacity: 30%;
 }
-

@@ -49,7 +49,7 @@ menu li{
 }
 
 .sidebar {
-  background-color: #FF7755;
+  background-color: #C50208;
   grid-column: 1/1;
   grid-row: 3/5;
   display: grid;
@@ -134,5 +134,5 @@ menu li{
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
